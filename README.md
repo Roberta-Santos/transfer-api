@@ -4,12 +4,12 @@ API Restful genérica que realiza alguns serviços bancários.
 
 ## Funcionalidades
 1. No controller de clientes, são realizadas as seguintes operações:
-1.1. Adicionar um novo cliente.
-1.2. Listar todos os clientes cadastrados.
-1.3. Buscar cliente por número da conta.
+- Adicionar um novo cliente.
+- Listar todos os clientes cadastrados.
+- Buscar cliente por número da conta.
 2. No controller de transferências, são realizadas as seguintes operações:
-2.1. Fazer nova transferência.
-2.2. Listar todas as transferências realizadas.
+- Fazer nova transferência.
+- Listar todas as transferências realizadas.
 
 ## Requisitos para execução da aplicação
 - [JDK 11](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
@@ -28,7 +28,7 @@ A aplicação pode ser acessada em: http://localhost:8080/swagger-ui/
 ## Tecnologias e ferramentas
 1. Java 11.
 2. Maven 4.0.0.
-3. Spring boot 2.0.2-SNAPSHOT.
+3. Spring boot 2.7.5-SNAPSHOT.
 4. Spring Data JPA.
 5. Spring Web.
 6. Spring Boot DevTools.
