@@ -4,12 +4,12 @@ API Restful genérica que realiza alguns serviços bancários.
 
 ## Funcionalidades
 1. No controller de clientes, são realizadas as seguintes operações:
-- Adicionar um novo cliente.
-- Listar todos os clientes cadastrados.
-- Buscar cliente por número da conta.
+    - Adicionar um novo cliente.
+    - Listar todos os clientes cadastrados.
+    - Buscar cliente por número da conta.
 2. No controller de transferências, são realizadas as seguintes operações:
-- Fazer nova transferência.
-- Listar todas as transferências realizadas.
+    - Fazer nova transferência.
+    - Listar todas as transferências realizadas.
 
 ## Requisitos para execução da aplicação
 - [JDK 11](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
@@ -17,23 +17,23 @@ API Restful genérica que realiza alguns serviços bancários.
 
 ## Executar a aplicação
 1. Faça um clone do repositório:
-git clone https://github.com/Roberta-Santos/transfer-api.git
+git clone `https://github.com/Roberta-Santos/transfer-api.git`
 
-2. Executar a aplicação utilizando o maven**
+2. Executar a aplicação utilizando o maven
 cd transfer-api
 mvn spring-boot:run
 
-A aplicação pode ser acessada em: http://localhost:8080/swagger-ui/
+A aplicação pode ser acessada em: `http://localhost:8080/swagger-ui/`
 
 ## Tecnologias e ferramentas
-1. Java 11.
-2. Maven 4.0.0.
-3. Spring boot 2.7.5-SNAPSHOT.
-4. Spring Data JPA.
-5. Spring Web.
-6. Spring Boot DevTools.
-7. Swagger 3.
-8. Log4j.
-9. Banco de dados H2.
-10. Lombok.
-11. git para versionamento de código.
+- Java 11.
+- Maven 4.0.0.
+- Spring boot 2.7.5-SNAPSHOT.
+- Spring Data JPA.
+- Spring Web.
+- Spring Boot DevTools.
+- Swagger 3.
+- Log4j.
+- Banco de dados H2.
+- Lombok.
+- git para versionamento de código.
