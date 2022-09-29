@@ -17,11 +17,11 @@ API Restful genérica que realiza alguns serviços bancários.
 
 ## Executar a aplicação
 1. Faça um clone do repositório:
-git clone `https://github.com/Roberta-Santos/transfer-api.git`
+- git clone `https://github.com/Roberta-Santos/transfer-api.git`
 
 2. Executar a aplicação utilizando o maven
-cd transfer-api
-mvn spring-boot:run
+- cd transfer-api
+- mvn spring-boot:run
 
 A aplicação pode ser acessada em: `http://localhost:8080/swagger-ui/`
 
