@@ -1,6 +1,5 @@
 package br.com.robertasantos.transferapi.domain;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -22,7 +21,7 @@ public class Transfer implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @JsonIgnore
+    @ApiModelProperty(notes = "Id, gerado automaticamente pelo banco de dados")
     private Long id;
 
     @ApiModelProperty(notes = "Número da conta de origem", example = "1234")
