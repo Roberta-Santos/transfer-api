@@ -31,7 +31,8 @@ API Restful genérica que realiza alguns serviços bancários.
     - cd transfer-api
     - mvn spring-boot:run
 
-A aplicação pode ser acessada em: `http://localhost:8080/swagger-ui/`
+- A aplicação pode ser acessada em: `http://localhost:8080/swagger-ui/`
+- O console do banco de dados pode ser acessado em: `http://localhost:8080/h2`
 
 ## Tecnologias e ferramentas
 - Java 11.
